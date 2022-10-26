@@ -1,0 +1,19 @@
+{
+  "name": "mysql-res-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Daniel Velasco <danilovelga4747@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3"
+  }
+}
